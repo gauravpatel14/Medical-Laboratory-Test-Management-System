@@ -115,22 +115,7 @@ Commas inside text fields are replaced with spaces when saving. If a data file i
 └── README.md
 ```
  
-## Limitations and future scope
- 
-**Current limitations**
- 
-- CSV storage with no encryption
-- No login or user roles
-- No audit trail or undo
-- Single user, and all code is in one file
-**Possible improvements**
- 
-- Store data in a database using JDBC (for example SQLite)
-- Add login and role-based access
-- Export reports as PDF
-- Support test panels and barcodes for samples
-- Add JUnit tests for `LabService`
-- Split the code into separate files or packages
+
 ## Author
  
 Gaurav Patel
